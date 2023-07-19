@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+       
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" href="css/custom-styles.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/component.css">
+        <link rel="stylesheet" href="css/font-awesome-ie7.css">
+ 
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        
+        
+        <form id="form1" runat="server">
+        
+        
+        <div class="wrapper-blue">
+            <div class="site-header">
+                <div class="logo">
+                    <h1> Blood Bank Management System</h1>
+                </div>
+                <div class="menu-bar">
+                    <div class="navbar">
+                                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                    <i class="fw-icon-th-list"></i>
+                                </a>
+                                <div class="nav-collapse collapse">
+                                    <ul class="nav">
+                                        <li><a href="DonateDetails.aspx">Home</a></li>
+                                        <li><a href="BloodDonation.aspx">Donate Blood</a></li>
+                                        <li><a href="DonateDetails.aspx">Donate Details</a></li>
+                                        <li><a href="DonorDetails.aspx">Donor Details</a></li>
+                                        <li><a href="Acceptor.aspx">Acceptor Details</a></li>
+                                        <li><a href="AdminLogin.aspx">LogOut</a></li>
+                                    </ul>
+                                </div><!--/.nav-collapse -->
+                        </div>
+                    </div>
+                <div class="container">
+                    <div class="ruler"></div>
+                </div>
+                <div class="container">
+                <div class="menu">
+                    <div class="navbar">
+                                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                    <i class="fw-icon-th-list"></i> NAVIGATION
+                                </a>
+                                <div class="nav-collapse collapse">
+                                   <ul class="nav">
+                                       <li><a href="DonateDetails.aspx">Home</a></li>
+                                        <li><a href="BloodDonation.aspx">Donate Blood</a></li>
+                                        <li><a href="DonateDetails.aspx">Donate Details</a></li>
+                                        <li><a href="DonorDetails.aspx">Donor Details</a></li>
+                                        <li><a href="Acceptor.aspx">Acceptor Details</a></li>
+                                        <li><a href="AdminLogin.aspx">LogOut</a></li>
+                                    </ul>
+                                </div><!--/.nav-collapse -->
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                        <div class="banner">
+              
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-heading">
+                
+            </div>
+   
+                <div class="container">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            
+
+        
+
+         <!-- /container -->
+
+       <script src="js/jquery-1.9.1.js"></script> 
+<script src="js/bootstrap.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/AnimOnScroll.js"></script>
+    
+    <script>
+      new AnimOnScroll( document.getElementById( 'grid' ), {
+        minDuration : 0.4,
+        maxDuration : 0.7,
+        viewportFactor : 0.2
+      } );
+    </script>
+<script>
+$('#myCarousel').carousel({
+    interval: 1800
+});
+</script>
+
+
+        </form>
+
+
+    </body>
+</html>
