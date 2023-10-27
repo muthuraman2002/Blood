@@ -1,10 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Admin.master" AutoEventWireup="true" CodeFile="BloodDonation.aspx.cs" Inherits="BloodDonation" Title="Untitled Page" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <asp:Panel ID="Panel1" runat="server" Height="652px">
+    <asp:Panel ID="Panel1" runat="server" Height="653px">
         <table style="width: 100%; height: 523px;">
             <tr>
-                <td style="height: 63px; " colspan="3">
+                <td style="height: 62px; " colspan="3">
                     <table style="width: 100%">
                         <tr>
                             <td style="width: 362px">
@@ -17,7 +17,7 @@
                             </td>
                             <td>
                                 <asp:Image ID="Image6" runat="server" Height="30px" 
-                                    ImageUrl="~/img/WhoNeddsBlood.gif.bmp" Width="353px" />
+                                    ImageUrl="~/img/WhoNeddsBlood.gif.bmp" Width="354px" />
                             </td>
                         </tr>
                     </table>
